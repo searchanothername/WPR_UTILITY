@@ -1,0 +1,9 @@
+*.bak
+/debug
+/inclinometer
+/Icons_original
+*.exe
+*.txt
+*.rtf
+*.xls
+

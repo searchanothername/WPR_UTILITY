@@ -1,0 +1,151 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WPR_UTILITIES - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\george\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /Zp1 /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/WPR_UTILITIES.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WPR_UTILITY_UNITED\DataProcess.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\george\LOCALS~1\Temp\RSP18.tmp" 
+Creating temporary file "C:\DOCUME~1\george\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+winmm.lib WPRDriverlib.lib ws2_32.lib wsock32.lib ippcore.lib ipps.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/WPR UTILITY.pdb" /debug /machine:I386 /out:"Debug/WPR UTILITY.exe" /pdbtype:sept 
+.\Debug\3DBar.obj
+.\Debug\AdvancedSettingDlg.obj
+.\Debug\AlarmSettingDlg.obj
+.\Debug\AlarmShowDlg.obj
+.\Debug\BasicSettingDlg.obj
+.\Debug\BeamCodeDlg.obj
+.\Debug\ColoredListCtrl.obj
+.\Debug\ColorProgressCtrl.obj
+.\Debug\DataView.obj
+.\Debug\DigitalClock.obj
+.\Debug\DmaSettingDlg.obj
+.\Debug\DoptestParamDlg.obj
+.\Debug\DspSetting.obj
+.\Debug\FrequencyDlg.obj
+.\Debug\NormalSettingDlg.obj
+.\Debug\PerformanceDlg.obj
+.\Debug\RawdataDlg.obj
+.\Debug\StaticCounter.obj
+.\Debug\StatusMonitorDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\TimeSeriesDlg.obj
+.\Debug\UPSDlg.obj
+.\Debug\WPR_UTILITIES.obj
+.\Debug\WPR_UTILITIESDlg.obj
+.\Debug\DataProcess.obj
+.\Debug\ProductProcess.obj
+.\Debug\ServerTask.obj
+.\Debug\StatusMonitorTask.obj
+.\Debug\TestTask.obj
+.\Debug\UPSMonitorTask.obj
+.\Debug\Global.obj
+.\Debug\Global_Advanced.obj
+.\Debug\Global_Alarms.obj
+.\Debug\Global_CtrlWords.obj
+.\Debug\Global_SM.obj
+.\Debug\Thread.obj
+.\Debug\A44_sm_handler.obj
+.\Debug\Sm_port.obj
+.\Debug\DataHandlor.obj
+.\Debug\IrqQueue.obj
+.\Debug\ClientContext.obj
+.\Debug\ClientManager.obj
+.\Debug\Server.obj
+.\Debug\DFVCtrl.obj
+.\Debug\DFVDocTemplate.obj
+.\Debug\DFVDocument.obj
+.\Debug\DFVFrameWnd.obj
+.\Debug\MainFrm.obj
+.\Debug\TotalSpecDlg.obj
+.\Debug\WPR_UTILITY_SPECDoc.obj
+.\Debug\WPR_UTILITY_SPECView.obj
+.\Debug\ZoomView.obj
+.\Debug\WPR_UTILITIES.res
+]
+Creating command line "link.exe @C:\DOCUME~1\george\LOCALS~1\Temp\RSP19.tmp"
+<h3>Output Window</h3>
+Compiling...
+DataProcess.cpp
+d:\wpr_utility_united\global.h(203) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+D:\WPR_UTILITY_UNITED\DataProcess.cpp(222) : warning C4018: '==' : signed/unsigned mismatch
+D:\WPR_UTILITY_UNITED\DataProcess.cpp(556) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\WPR_UTILITY_UNITED\DataProcess.cpp(557) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\WPR_UTILITY_UNITED\DataProcess.cpp(573) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\WPR_UTILITY_UNITED\DataProcess.cpp(574) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Linking...
+Creating temporary file "C:\DOCUME~1\george\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/o"Debug/WPR_UTILITIES.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\3DBar.sbr
+.\Debug\AdvancedSettingDlg.sbr
+.\Debug\AlarmSettingDlg.sbr
+.\Debug\AlarmShowDlg.sbr
+.\Debug\BasicSettingDlg.sbr
+.\Debug\BeamCodeDlg.sbr
+.\Debug\ColoredListCtrl.sbr
+.\Debug\ColorProgressCtrl.sbr
+.\Debug\DataView.sbr
+.\Debug\DigitalClock.sbr
+.\Debug\DmaSettingDlg.sbr
+.\Debug\DoptestParamDlg.sbr
+.\Debug\DspSetting.sbr
+.\Debug\FrequencyDlg.sbr
+.\Debug\NormalSettingDlg.sbr
+.\Debug\PerformanceDlg.sbr
+.\Debug\RawdataDlg.sbr
+.\Debug\StaticCounter.sbr
+.\Debug\StatusMonitorDlg.sbr
+.\Debug\TimeSeriesDlg.sbr
+.\Debug\UPSDlg.sbr
+.\Debug\WPR_UTILITIES.sbr
+.\Debug\WPR_UTILITIESDlg.sbr
+.\Debug\DataProcess.sbr
+.\Debug\ProductProcess.sbr
+.\Debug\ServerTask.sbr
+.\Debug\StatusMonitorTask.sbr
+.\Debug\TestTask.sbr
+.\Debug\UPSMonitorTask.sbr
+.\Debug\Global.sbr
+.\Debug\Global_Advanced.sbr
+.\Debug\Global_Alarms.sbr
+.\Debug\Global_CtrlWords.sbr
+.\Debug\Global_SM.sbr
+.\Debug\Thread.sbr
+.\Debug\A44_sm_handler.sbr
+.\Debug\Sm_port.sbr
+.\Debug\DataHandlor.sbr
+.\Debug\IrqQueue.sbr
+.\Debug\ClientContext.sbr
+.\Debug\ClientManager.sbr
+.\Debug\Server.sbr
+.\Debug\DFVCtrl.sbr
+.\Debug\DFVDocTemplate.sbr
+.\Debug\DFVDocument.sbr
+.\Debug\DFVFrameWnd.sbr
+.\Debug\MainFrm.sbr
+.\Debug\TotalSpecDlg.sbr
+.\Debug\WPR_UTILITY_SPECDoc.sbr
+.\Debug\WPR_UTILITY_SPECView.sbr
+.\Debug\ZoomView.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\george\LOCALS~1\Temp\RSP1A.tmp"
+Creating browse info file...
+Microsoft Browse Information Maintenance Utility Version 6.00.8168
+Copyright (C) Microsoft Corp 1990-1998. All rights reserved.
+
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+WPR UTILITY.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>
